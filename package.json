@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tompi/prestock",
   "dependencies": {
+    "cli-color": "^0.3.2",
     "feedparser": "^0.19.2",
     "html-to-text": "^1.1.1",
     "request": "^2.51.0",
