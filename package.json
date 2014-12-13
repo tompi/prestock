@@ -1,0 +1,34 @@
+{
+  "name": "prestock",
+  "version": "0.0.1",
+  "description": "Stock prediction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tompi/prestock.git"
+  },
+  "author": "Thomas.Haukland@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tompi/prestock/issues"
+  },
+  "homepage": "https://github.com/tompi/prestock",
+  "dependencies": {
+    "feedparser": "^0.19.2",
+    "html-to-text": "^1.1.1",
+    "request": "^2.51.0",
+    "sentiment": "^1.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-mocha": "^2.0.0",
+    "jshint": "^2.5.10",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.0.1",
+    "should": "^4.4.0"
+  }
+}
